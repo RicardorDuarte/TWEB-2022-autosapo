@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+         <nav>
+            <div class="menu">
+               <li>
+                  <img src="img/autosapo.png" class="logo" alt="Auto SAPO">
+               </li>
+               <li>Mail  </li>
+               <li>Jornais </li>
+               <li>Carros </li>
+               <li>Casas </li>
+               <li>Emprego </li>
+               <li>Blogs </li>
+               <li>Promos </li>
+               <li>Viral </li>
+               <div class="submenu">
+                  <li>Tudo▼</button></li>
+                  <div class="sub_escondido">
+                     <div class="SUB1">
+                        <div class="titulo">
+                           <li>Noticias</li>
+                        </div>
+                        <div class="sub1">
+                           <li>automonitor</li>
+                           <li>Comité Olímpico</li>
+                           <li>ECO</li>
+                           <li>Exame</li>
+                           <li>Exame Informática</li>
+                           <li>Executive Digest</li>
+                           <li>FP Andebol</li>
+                           <li>Human Resources</li>
+                           <li>Jornal I</li>
+                           <li>Líder</li>
+                           <li>Marketeer</li>
+                           <li>PME Magazine</li>
+                           <li>Polígrafo</li>
+                           <li>Porto Canal</li>
+                           <li>Pplware</li>
+                           <li>Risco</li>
+                           <li>SAPO 24</li>
+                           <li>SAPO Desporto</li>
+                           <li>SAPO Tek</li>
+                           <li>SAPO Vídeos</li>
+                           <li>SAPO Voz</li>
+                           <li>Sol</li>
+                           <li>Viral</li>
+                           <li>Visão</li>
+                        </div>
+                     </div>
+                     <div class="SUB2">
+                        <div class="titulo2">
+                           <li>Vida e Lazer</li>
+                        </div>
+                        <div class="sub2">
+                           <li>Activa</li>
+                           <li>Caras</li>
+                           <li>Estrelas e Ouriços</li>
+                           <li>Forever Young</li>
+                           <li>Green Savers</li>
+                           <li>Holofote</li>
+                           <li>Kids Marketeer</li>
+                           <li>Miranda by SAPO</li>
+                           <li>MAGG</li>
+                           <li>Mãe-Me-Quer</li>
+                           <li>Mood</li>
+                           <li>Passatempos</li>
+                           <li>PRIMA</li>
+                           <li>Rock in Rio</li>
+                           <li>SAPO Lifestyle</li>
+                           <li>SAPO Mag</li>
+                           <li>SAPO Viagens</li>
+                           <li>Superbrands</li>
+                           <li>Viagens & Resorts</li>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               </li>
+               <li>
+                  <div class="mail">✉</div>
+               </li>
+               <li>
+                  <div class="user">ጰ</div>
+               </li>
+            </div>
+            /*começa o segundo menu*/
+            </nav>
+      </header>
+      <div class="menu2">
+         <li> <img src="img/logoauto.png.svg" class="autologo" alt="autosapo"> </li>
+         <div class="hamburguer">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+         <div class="menu2-2">
+            <div class="COMPRAR">
+               <li>COMPRAR ▼</li>
+               <div class="comprar">
+                  <div class="Carro">
+                     <li>Carro  </li>
+                  </div>
+                  <div class="Comercial">
+                     <li>Comercial</li>
+                  </div>
+                  <div class="Moto">
+                     <li>Moto <img src="img/seta.png" class="seta1"></li>
+                  </div>
+                  <div class="Barco">
+                     <li>Barco <img src="img/seta.png" class="seta2"></li>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="VENDER">
+               <li>VENDER</li>
+            </div>
+            <div class="SERVIÇOS">
+               <li>SERVIÇOS ▼</li>
+               <div class="serviços">
+                  <div class="Venda">
+                     <li>Venda já <img src="img/seta.png" class="seta3"></li>
+                  </div>
+                  <div class="Premium">
+                     <li>Premium <img src="img/seta.png" class="seta4"></li>
+                  </div>
+               </div>
+            </div>
+            <div class="LOGIN">
+               <li>LOGIN</li>
+            </div>
+         </div>
+    </div>
+
+
+
+    <h2 id="calc-h2">Calculadora de Preço de Automóvel</h2>
+
+    <form id="calc-form">
+      <label for="marca">Marca:</label><br>
+      <input type="text" id="marca" name="marca"><br>
+      <label for="modelo">Modelo:</label><br>
+      <input type="text" id="modelo" name="modelo"><br>
+      <label for="preco-aquisicao">Preço de Aquisição:</label><br>
+      <input type="number" id="preco-aquisicao" name="preco-aquisicao"><br>
+      <label for="ano-matricula">Ano da Matrícula:</label><br>
+      <input type="number" id="ano-matricula" name="ano-matricula"><br>
+      <label for="quilometragem">Quilometragem:</label><br>
+      <input type="number" id="quilometragem" name="quilometragem"><br>
+      <label for="estado-conservacao">Estado de Conservação:</label><br>
+      <select id="estado-conservacao" name="estado-conservacao">
+        <option value="mau">Mau</option>
+        <option value="bom">Bom</option>
+        <option value="muito-bom">Muito bom</option>
+      </select>
+    </form> 
+    <br>
+    <button class="Calc-preco-final" onclick="calcularPrecoFinal()" style="margin-left: 112px;">Calcular Preço Final</button>
+    <br><br>
+    <div id="resultado"></div>
+    <br><br>
+    <div class="resultados">
+      <div id="resultado-mau" class="resultado" onmouseover="mostrarDetalhes('mau')" onmouseout="esconderDetalhes()"></div>
+      <div id="resultado-bom" class="resultado" onmouseover="mostrarDetalhes('bom')" onmouseout="esconderDetalhes()"></div>
+      <div id="resultado-muito-bom" class="resultado" onmouseover="mostrarDetalhes('muito-bom')" onmouseout="esconderDetalhes()"></div>
+    </div>
+    <div id="detalhes"></div>
+    <script src="venda.js"></script>
+
+    <div class="financiamento">
+        <h2 id="financiamento-h2">Opções de Financiamento</h2>
+        <div id="opcoes-financiamento">
+            <div class="opcao-financiamento">
+             <h3>Opção 1</h3>
+             <p>Valor do financiamento: <span id="montante-financiamento-1">0</span>€</p>
+             <p>Valor do entrada: <span id="deposito-financiamento-1">0</span>€</p>
+             <p>Duração do financiamento: <span id="duracao-financiamento-1">0</span> anos</p>
+             <p>Spread: <span id="spread-1">0</span>%</p>
+            </div>
+            <div class="opcao-financiamento">
+             <h3>Opção 2</h3>
+             <p>Valor do financiamento: <span id="montante-financiamento-2">0</span>€</p>
+             <p>Valor do entrada: <span id="deposito-financiamento-2">0</span>€</p>
+             <p>Duração do financiamento: <span id="duracao-financiamento-2">0</span> anos</p>
+             <p>Spread: <span id="spread-2">0</span>%</p>
+            </div>
+            <div class="opcao-financiamento">
+             <h3>Opção 3</h3>
+             <p>Valor do financiamento: <span id="montante-financiamento-3">0</span>€</p>
+             <p>Valor do entrada: <span id="deposito-financiamento-3">0</span>€</p>
+             <p>Duração do financiamento: <span id="duracao-financiamento-3">0</span> anos</p>
+             <p>Spread: <span id="spread-3">0</span>%</p>
+            </div>
+        </div>
+    </div>
+    <script src="financiamento.js"></script>
+<div class="geralmeu">
+    <div class="container-cima-carros">
+       <div class="animacoes">
+          <div class="novidades">
+             Novidades
+             <div class="Circulo1">
+             <div class="circulo"></div>
+             <img src="img/speaker.png" class="speaker">
+          </div>
+       </div>
+          <div class="ofertas">
+             Ofertas Power
+             <div class="circulo2"></div>
+             <img src="img/sp.png" class="sp">
+          </div>
+          <div class="familiar">
+             Familiar
+             <div class="circulo3"></div>
+             <img src="img/family.png" class="familia">
+          </div>
+          <div class="garantias">
+             Garantias de 2 anos
+             <div class="circulo4"></div>
+             <img src="img/certify.png" class="certificado">
+          </div>
+       </div>
+    </div>  
+    <div class="car-boxes">
+        <div class="car-box">
+          <img src="\img\car1.jpg" alt="Picture of car" width="274" height="191" />
+          <div class="text-area">
+            <h1>Hyundai Ioniq 6</h1>
+            <hr />
+            <div class="teste">
+                <div class="price">35.000€</div>
+                <div class="km-year">
+                    <div>75.000 km</div>
+                    <div>2021 • Elétrico</div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="car-box">
+          <img src="\img\car2.jpg" alt="Picture of car" width="274" height="191" />
+          <div class="text-area">
+            <h1>Mercedes C220 Amg</h1>
+            <hr />
+            <div class="teste">
+                <div class="price">20.000€</div>
+                <div class="km-year">
+                    <div>120.456 km</div>
+                    <div>2017 • Gasolina</div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="car-box">
+          <img src="\img\car3.jpg" alt="Picture of car" width="274" height="191" />
+          <div class="text-area">
+            <h1>BMW M3 Competition</h1>
+            <hr />
+            <div class="teste">
+                <div class="price">65.000€</div>
+                <div class="km-year">
+                    <div>7.500 km</div>
+                    <div>2022 • Gasolina    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="car-box">
+            <img src="\img\car4.jpg" alt="Picture of car" width="274" height="191" />
+            <div class="text-area">
+              <h1>Volvo V60 2.0 D2</h1>
+              <hr />
+              <div class="teste">
+                  <div class="price">25.500€</div>
+                  <div class="km-year">
+                      <div>105.000 km</div>
+                      <div>2021 • Diesel</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="car-box">
+            <img src="\img\car5.jpg" alt="Picture of car" width="274" height="191" />
+            <div class="text-area">
+              <h1>Fiat 500 1.3 Mjet</h1>
+              <hr />
+              <div class="teste">
+                  <div class="price">20.000€</div>
+                  <div class="km-year">
+                      <div>120.456 km</div>
+                      <div>2020 • Gasolina</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="car-box">
+            <img src="\img\car6.jpg" alt="Picture of car" width="274" height="191" />
+            <div class="text-area">
+              <h1>Porsche Cayenne S</h1>
+              <hr />
+              <div class="teste">
+                  <div class="price">65.000€</div>
+                  <div class="km-year">
+                      <div>7.500 km</div>
+                      <div>2022 • Híbrido <small>(Gasolina)</small></div>
+                  </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="Mais">CARREGAR MAIS DESTAQUES</button>
+
+    <div class="Caixa-Grande">
+        <div class="Caixa1">
+            <div class="Anunciar">
+                <h3><strong>ANUNCIAR</strong> GRÁTIS</h3>
+                <p class="texto-caixa1">Alcance milhares de compradores por mês</p>
+                <p class="texto-caixa1">Grátis durante 60 dias</p>
+                <button class="publicar">Publicar</button>
+            </div>     
+            <div class="Vendabottom">
+                <h3><strong>VENDA</strong> EM 24H</h3>
+                <p class="texto-caixa1">Alcance milhares de compradores por mês</p>
+                <br>
+                <button class="proposta">Pedir Proposta</button>
+            </div>       
+        </div>
+        <div class="Caixa2">
+            <div class="newsletter">
+                <h3>SUBSCREVA A NOSSA NEWSLETTER</h3>
+                <p>Por favor insira o seu e-mail para receber a newsletter com a oferta diária.</p>
+                <button class="subscrever">SUBSCREVER    <img src="\img\subscrever.png" height="20px"> </button>
+            </div>
+        </div>
+    </div>
+    <script src="logica.js"></script>
+    
+
+
+    <footer id="footer">
+        <div id="geral">
+            <div class="topo_footer">
+                <h3>
+                    <a href="" class="popi">
+                        AUTO<strong>SAPO</strong>
+                    </a>           
+                </h3>
+                <div class="mid"> <p></p></div>
+                <div class="direita"> 
+                    <a href=""><img class="twitter" src="\img\Twitter.png" alt="esperoquefuncione"></a>
+                    <a href=""><img class="facebook" src="\img\facebook-logo-png-38347.png" alt="esperoquefuncione2"></a>
+                    <small>Siga-nos em:</small>
+                </div>
+            </div>
+            <div class="listas"> 
+                <ul class="comprarfooter">
+                <h4 class="h4comprar">COMPRAR CARRO</h4>
+                <li><a class="linkslista" style="text-decoration:none"  href="">Carros Usados</a></li>
+                <li><a class="linkslista" style="text-decoration:none" href="">Comerciais Usados</a></li>
+                <li><a class="linkslista" style="text-decoration:none" href="">Carros Certificados</a></li>
+                <li><a class="linkslista" style="text-decoration:none" href="">Carros Baratos</a></li>
+                <li><a class="linkslista" style="text-decoration:none" href="">Carros Com Garantia</a></li>
+                <li><a class="linkslista" style="text-decoration:none" href="">Carros Usados por Marca</a></li>
+                <li><a class="linkslista" style="text-decoration:none" href="">Carros Usados por Localização</a></li>                 
+                </ul>
+             
+                <ul class="vender">
+                   <h4 class="h4vender">VENDER CARRO</h4>
+                   <li><a class="linkslista" style="text-decoration:none" href="">Vender em 24h</a></li>
+                   <li><a class="linkslista" style="text-decoration:none" href="">Serviço de Venda Premium</a></li>
+                   <li><a class="linkslista" style="text-decoration:none" href="">Anunciar Grátis</a></li>
+                </ul>
+
+                <ul class="servicos">
+                    <h4 class="h4servicos">SERVIÇOS</h4>
+                    <li><a class="linkslista" style="text-decoration:none" href="">Venda Já</a></li>
+                    <li><a class="linkslista" style="text-decoration:none" href="">Premium</a></li>
+                 </ul>
+
+                 <ul class="sobrefooter">
+                    <h4 class="h4sobrefooter">SOBRE NÓS</h4>
+                    <li><a class="linkslista" style="text-decoration:none" href="">Auto SAPO</a></li>
+                    <li><a class="linkslista" style="text-decoration:none" href="">Ajuda</a></li>
+                    <li><a class="linkslista" style="text-decoration:none" href="">Termos De Utilização</a></li>
+                    <li><a class="linkslista" style="text-decoration:none" href="">Comerciantes No Auto SAPO</a></li>
+                 </ul>
+            </div>
+        <div class="underlistas">
+            <ul class="under">
+                <li><a class="linksunder" style="font-size: small;" href="">sobre o sapo</a></li>
+                <li><a class="linksunder" style="font-size: small;" href="">condições de utilização</a></li>
+                <li><a class="linksunder" style="font-size: small;" href="">política de privacidade</a></li>
+                <li><a class="linksunder" style="font-size: small;" href="">rgdp</a></li>
+                <li><a class="linksunder" style="font-size: small;" href="">sobre cookies</a></li>
+                <li><a class="linksunder" style="font-size: small;" href="">ajuda</a></li>
+                <li><a class="linksunder" style="font-size: small;" href="">definições de privacidade</a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
